@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace hw7
+namespace hw7 // Konstantin Konovalov
 {
     static class Program
     {
@@ -17,6 +17,7 @@ namespace hw7
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            Application.Run(new Form2());
         }
     }
 }
